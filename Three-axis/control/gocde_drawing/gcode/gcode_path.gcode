@@ -1,0 +1,129 @@
+G21 (metric ftw)
+G90 (absolute mode)
+G92 X0.00 Y0.00 Z0.00 (you are here)
+
+M300 S30 (pen down)
+G4 P150 (wait 150ms)
+M300 S50 (pen up)
+G4 P150 (wait 150ms)
+M18 (disengage drives)
+M01 (Was registration test successful?)
+M17 (engage drives if YES, and continue)
+
+(Polyline consisting of 1 segments.)
+G1 X-5.17 Y-1.04 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.17 Y2.55 F3500.00
+G1 X-4.69 Y2.55 F3500.00
+G1 X-4.69 Y1.07 F3500.00
+G1 X-2.82 Y1.07 F3500.00
+G1 X-2.82 Y2.55 F3500.00
+G1 X-2.35 Y2.55 F3500.00
+G1 X-2.35 Y-1.04 F3500.00
+G1 X-2.82 Y-1.04 F3500.00
+G1 X-2.82 Y0.65 F3500.00
+G1 X-4.69 Y0.65 F3500.00
+G1 X-4.69 Y-1.04 F3500.00
+G1 X-5.17 Y-1.04 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 2 segments.)
+G1 X0.17 Y-0.21 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.63 Y-0.26 F3500.00
+G1 X0.23 Y-0.88 F3500.00
+G1 X-0.52 Y-1.10 F3500.00
+G1 X-1.42 Y-0.75 F3500.00
+G1 X-1.76 Y0.24 F3500.00
+G1 X-1.42 Y1.26 F3500.00
+G1 X-0.54 Y1.62 F3500.00
+G1 X0.31 Y1.26 F3500.00
+G1 X0.64 Y0.26 F3500.00
+G1 X0.64 Y0.15 F3500.00
+G1 X-1.30 Y0.15 F3500.00
+G1 X-1.06 Y-0.51 F3500.00
+G1 X-0.51 Y-0.74 F3500.00
+G1 X-0.10 Y-0.61 F3500.00
+G1 X0.17 Y-0.21 F3500.00
+G1 X0.17 Y-0.21 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 2 segments.)
+G1 X-1.28 Y0.51 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.18 Y0.51 F3500.00
+G1 X0.01 Y1.00 F3500.00
+G1 X-0.54 Y1.26 F3500.00
+G1 X-1.05 Y1.05 F3500.00
+G1 X-1.28 Y0.51 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1 segments.)
+G1 X1.18 Y-1.04 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.18 Y2.55 F3500.00
+G1 X1.62 Y2.55 F3500.00
+G1 X1.62 Y-1.04 F3500.00
+G1 X1.18 Y-1.04 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1 segments.)
+G1 X2.29 Y-1.04 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.29 Y2.55 F3500.00
+G1 X2.74 Y2.55 F3500.00
+G1 X2.74 Y-1.04 F3500.00
+G1 X2.29 Y-1.04 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 2 segments.)
+G1 X3.26 Y0.26 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.66 Y1.33 F3500.00
+G1 X4.48 Y1.62 F3500.00
+G1 X5.36 Y1.27 F3500.00
+G1 X5.70 Y0.29 F3500.00
+G1 X5.55 Y-0.50 F3500.00
+G1 X5.11 Y-0.94 F3500.00
+G1 X4.48 Y-1.10 F3500.00
+G1 X3.60 Y-0.75 F3500.00
+G1 X3.26 Y0.26 F3500.00
+G1 X3.26 Y0.26 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 2 segments.)
+G1 X3.71 Y0.26 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.93 Y-0.49 F3500.00
+G1 X4.48 Y-0.74 F3500.00
+G1 X5.03 Y-0.49 F3500.00
+G1 X5.25 Y0.27 F3500.00
+G1 X5.03 Y1.00 F3500.00
+G1 X4.48 Y1.25 F3500.00
+G1 X3.93 Y1.01 F3500.00
+G1 X3.71 Y0.26 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+
+
+(end of print job)
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+M300 S255 (turn off servo)
+G1 X0 Y0 F3500.00
+G1 Z0.00 F150.00 (go up to finished level)
+G1 X0.00 Y0.00 F3500.00 (go home)
+M18 (drives off)
