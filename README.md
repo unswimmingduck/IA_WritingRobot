@@ -39,6 +39,11 @@ H --> |No|B
 ## 2. Motor Control according to the Dynamic Algorithm
 &emsp;&emsp; Because the four kinds writing robot have different mechanical structure, there should design different motor control algorithms to acomplish the point-by-point-comparison interpolation algorithm. If you want to know special algorithm in special robot, you can choose the special type and see the details of how it realizes its function and point-by-point-comparison interpolation algorithm. 
 
+
+
 |Transmission type|Specific types|
-|  ----  | ----  |
-|screw drive|Two-axis|
+ ----  | ----  
+Screw drive|Two-axis<br>Three-axis
+Wheel drive|Three-Wheels<br>Four-Wheels
+
+
