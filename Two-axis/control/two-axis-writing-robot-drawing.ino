@@ -41,21 +41,6 @@ float Ymin = 0;
  
 float Ymax = (2*DIAGONAL_A/2*DIAGONAL_B/2)/Xmax;     //多边形Y方向的高
   
-float x1 = 100;
-float y1 = 0;
-
-float x2 = 195;
-float y2 = 69;
-
-float x3 = 195;
-float y3 = 181;
-
-float x4 = 41;
-float y4 = 181;
-
-float x5 = 5;
-float y5 = 69;
-
 struct Point{
     float x;
     float y;
@@ -90,46 +75,32 @@ void loop()
      delay(10);
  
      
- 
     step(Y_DIR,Y_STP,-40000);
  
     step(X_DIR, X_STP, 24000);
  
-    struct Point p1, p2, p3, p4, p5;
-    
+    struct Point p0, p1, p2, p3;
+ 
+    p1.x = 0;
+    p1.y = 0;
+ 
     p1.x = 100;
     p1.y = 0;
 
-    p2.x = 195;
-    p2.y = 69;
+    p2.x = 100;
+    p2.y = -50;
 
-    p3.x = 195;
-    p3.y = 181;
+    p3.x = 0;
+    p3.y = -50;
 
-    p4.x = 41;
-    p4.y = 181;
-
-    p5.x = 5;
-    p5.y = 69;
-
-    runIn(p1, p2);
+    runIn(p0, p1);
  
-   
+    runIn(p1, p2);
  
     runIn(p2, p3);
  
-   
- 
-    runIn(p3, p4);
- 
-   
- 
-    runIn(p4, p5);
+    runIn(p3, p0);
 
-    runIn(p5, p1);
- 
-   
- 
     resetStepper();
  
 }
