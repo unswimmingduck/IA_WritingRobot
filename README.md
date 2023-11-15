@@ -47,3 +47,11 @@ Screw drive|Two-axis<br>Three-axis
 Wheel drive|Three-Wheels<br>Four-Wheels
 
 
+## 3. Drawing your picture or character
+&emsp;&emsp; In **Three-axis, Three-Wheels and Four-Wheels**, these writing robot sopport users to draw picture and some characters they wanted with the help of **processing and inkscape.**  
+&emsp;&emsp; **Processing** is a free graphical library and integrated development environment (IDE) designed to teach non-programmers the basics of computer programming in a visual environment. It uses the Java language and provides additional simplifications such as extra classes and aliases for math functions and operations.Processing also provides a graphical user interface that simplifies the compilation and execution phases. If you want to get more details about processing, you can [click here to get more informations and download](https://processing.org/).  
+&emsp;&emsp; **Inkscape** is a free and open source vector graphics editing software for Windows, MacOS X and Linux system platforms. It offers a rich set of features and is widely used for artistic and technical illustrations such as cartoons, clip art, logos, typography, diagrams and flowcharts. Unlike pixel graphics, Inkscape uses vector graphics, which allows for clear printouts and rendering at unlimited scales. If you want to get more details about processing, you can [click here to get more informations and download](https://inkscape.org/).  
+&emsp;&emsp; **We use Inkscape to convert the picture or characters user want into penstroke paths in .gcode format, and apply Processing to read those penstroke paths and then send relevant commands to the Arduino uno to control motors.**
+
+
+
