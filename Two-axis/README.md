@@ -16,3 +16,7 @@ struct Point{
 };
 ```
 &emsp;&emsp; [drawing_sin_cos.ino](https://github.com/unswimmingduck/IA_WritingRobot/blob/main/Two-axis/control/drawing_sin_cos.ino) how we use point-to-point-comparasion interpolation algorithm to draw cos/sin function. This example could perfectly show point-to-point-comparasion interpolation algorithm can drawing some complex picture.
+
+## Display
+The following shows the robot drwaing some pictures.
+![](https://github.com/unswimmingduck/IA_WritingRobot/blob/main/Two-axis/display/writing_show.mp4)
