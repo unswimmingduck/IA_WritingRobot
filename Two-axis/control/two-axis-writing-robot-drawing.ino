@@ -81,8 +81,8 @@ void loop()
  
     struct Point p0, p1, p2, p3;
  
-    p1.x = 0;
-    p1.y = 0;
+    p0.x = 0;
+    p0.y = 0;
  
     p1.x = 100;
     p1.y = 0;
