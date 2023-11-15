@@ -9,7 +9,7 @@
 * gcode_drawing
    
 &emsp;&emsp; [3axis_drawing](https://github.com/unswimmingduck/IA_WritingRobot/blob/main/Three-axis/control/3axis_drawing/3axis_drawing.ino) shows how we use point-to-point-comparasion interpolation algorithm to draw rectangle. In this example, we define a struct named Point which save the data of the target point. We define 4 points in the example to drawing rectangle in 25 * 50. 
-So, if you want to draw more complex pictures or other things, you can add or change the points to let the robot drawing the picture you want. Different from Two-axis writing robot, this type robot can hold up the pen. So this robot could drawing more complex picture or character.
+So, if you want to draw more complex pictures or other things, you can add or change the points to let the robot drawing the picture you want. **Different from Two-axis writing robot, this type robot can hold up the pen. So this robot could drawing more complex picture or character.**
 ```
 struct Point{
     float x;
