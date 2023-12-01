@@ -5,11 +5,18 @@
 ![Static Badge](https://img.shields.io/badge/inkscape-make?style=for-the-badge&logo=inkscape&logoColor=white&labelColor=black&color=black)&emsp;&emsp; 
 ![Static Badge](https://img.shields.io/badge/Processing-make?style=for-the-badge&logo=Processing&logoColor=white&labelColor=rgb(108%2C156%2C154)&color=rgb(108%2C156%2C154))
 
-###  There have four kinks of writting robot: 
-* Two-axis 
-* Three-axis 
+###  There have four kinks of writting robot, you can alos see the character or image the robot drawing: 
+* Two-axis
+  ![image](https://github.com/unswimmingduck/IA_WritingRobot/blob/main/dispaly/two-axis.jpg)
+  
+* Three-axis
+  ![image](https://github.com/unswimmingduck/IA_WritingRobot/blob/main/dispaly/three-axis.png)
+  
 * Three-wheels
+  ![image](https://github.com/unswimmingduck/IA_WritingRobot/blob/main/dispaly/three_wheel.png)
+  
 * Four-wheels
+  ![image](https://github.com/unswimmingduck/IA_WritingRobot/blob/main/dispaly/four-wheel.jpg)
   
 Although they have different mechanism structures, they all apply interpolation algorithm to control the drawing and writting behavior.
 ## 1. Dynamic Algorithm
